@@ -1,9 +1,9 @@
 import turtle
 import random
 
-# Глобальные переменные
+# Глобальные переменные (Негативная практика с точки зрения организации функций)
 sc = None
-t1 = None
+t1 = None # Объект библиотеки Turtle
 t2 = None
 win = False
 
@@ -43,4 +43,5 @@ def check_winner():
         win = True
 
 setup()
+
 start_race()
